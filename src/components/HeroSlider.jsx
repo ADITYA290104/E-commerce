@@ -42,7 +42,7 @@ export const HeroSlider = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const goToSlide = (index: number) => {
+  const goToSlide = (index) => {
     setCurrentSlide(index);
   };
 

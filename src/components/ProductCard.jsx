@@ -2,14 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ShoppingCart } from "lucide-react";
 
-interface ProductCardProps {
-  image: string;
-  name: string;
-  price: number;
-  originalPrice?: number;
-}
-
-export const ProductCard = ({ image, name, price, originalPrice }: ProductCardProps) => {
+export const ProductCard = ({ image, name, price, originalPrice }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
