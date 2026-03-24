@@ -8,12 +8,16 @@ A modern and responsive E-commerce frontend application where users can browse p
 🔢 Update product quantity
 📱 Fully responsive design
 ⚡ Fast performance using Vite
+
+
 🛠️ Tech Stack
+
 React.js
 Vite
 JavaScript (ES6+)
 CSS / Tailwind CSS /
 Html
+
 
 📂 Project Structure
 ecommerce-frontend/
